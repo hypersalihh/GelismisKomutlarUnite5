@@ -17,4 +17,112 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.971" />
+
+    <TextView
+        android:id="@+id/textViewBilgi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Araç Bilgisi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <Button
+        android:id="@+id/buttonArabaKapi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Araba Kapı Sayısı"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108" />
+
+    <Button
+        android:id="@+id/buttonArabaHiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Araba maksimum hızı"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.202" />
+
+    <Button
+        android:id="@+id/buttonArabaCalistir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Araba'yı Çalıştır"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.292" />
+
+    <Button
+        android:id="@+id/buttonArabaIseGit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Araba İşe Git"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.395" />
+
+    <Button
+        android:id="@+id/buttonMinibusKapi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minibus Kapı Sayısı"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/buttonMinibusHiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minibus maksimum hızı"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.592" />
+
+    <Button
+        android:id="@+id/buttonMinibusCalistir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minibus'ü Çalıştır"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.688" />
+
+    <Button
+        android:id="@+id/buttonMinibusYolcuIndir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minibus Yolcu İndir"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.79" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
