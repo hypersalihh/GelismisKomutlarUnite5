@@ -38,6 +38,8 @@
         <activity android:name=".SS_165_Activity"></activity>
         <activity android:name=".SS_169_Activity"></activity>
         <activity android:name=".SS_173_Activity"></activity>
+        <activity android:name=".SS_188_Activity"></activity>
+        <activity android:name=".SS_206_Activity"></activity>
 
     </application>
 

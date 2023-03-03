@@ -212,10 +212,36 @@
         app:layout_constraintHorizontal_bias="0.948"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.365" />
+        app:layout_constraintVertical_bias="0.201" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="102dp"
+        android:layout_height="96dp"
+        android:onClick="btSS_206"
+        android:text="UYGULAMA SIRA SİZDE (206)"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.73" />
 
     <Button
         android:id="@+id/button11"
+        android:layout_width="102dp"
+        android:layout_height="96dp"
+        android:onClick="btSS_188"
+        android:text="UYGULAMA SIRA SİZDE (188)"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.566" />
+
+    <Button
+        android:id="@+id/button18"
         android:layout_width="102dp"
         android:layout_height="96dp"
         android:onClick="btSS_173"
@@ -225,5 +251,5 @@
         app:layout_constraintHorizontal_bias="0.948"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.188" />
+        app:layout_constraintVertical_bias="0.39" />
 </androidx.constraintlayout.widget.ConstraintLayout>

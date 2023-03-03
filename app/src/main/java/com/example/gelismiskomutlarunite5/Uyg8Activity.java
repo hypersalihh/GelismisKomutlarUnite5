@@ -33,7 +33,7 @@ public class Uyg8Activity extends AppCompatActivity {
         minibus.setKapiSayisi(3);
         minibus.setMaksimumHiz(160);
         buttonArabaKapi.setOnClickListener(new View.OnClickListener() {
-            @Overrideş
+            @Override
             public void onClick(View view) {
                 textViewBilgi.setText(araba.kapiSayisiniGoster());
             }
